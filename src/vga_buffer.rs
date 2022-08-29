@@ -123,7 +123,7 @@ pub fn print_something() {
         buffer: unsafe { &mut *(0xb8000 as *mut Buffer) },
     };
 
-    writer.write_byte(b'H');
-    writer.write_string("ello World");
-    write!(writer, "The numbers are {} and {}", 42, 1.0/3.0).unwrap();
+    writer.write_string("Hello World\n");
+    write!(writer, "The numbers are {} and {}\n", 42, 1.0/3.0).unwrap();
+    write!(writer, "AstOs\n").unwrap();
 }
