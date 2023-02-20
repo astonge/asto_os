@@ -9,6 +9,7 @@ Thanks to [BlogOS](https://os.phil-opp.com/)
 
 * ```cargo build```
 * ```cargo run```
+* Once inside QEMU, use ALT + 2 to display a console
 
 ---
 ## Requirments
